@@ -1,0 +1,12 @@
+<h1 class="my-4">Editing Task</h1>
+
+<div class="card p-4">
+  <%= render "form", task: @task %>
+</div>
+
+<br>
+
+<div class="d-flex justify-content-between mt-3">
+  <%= link_to "Show this task", @task, class: "btn btn-primary" %>
+  <%= link_to "Back to tasks", tasks_path, class: "btn btn-secondary" %>
+</div>

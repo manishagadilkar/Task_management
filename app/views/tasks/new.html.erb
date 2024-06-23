@@ -1,0 +1,11 @@
+<h1 class="mb-4">New Task</h1>
+
+<div class="card mb-4">
+  <div class="card-body">
+    <%= render "form", task: @task %>
+  </div>
+</div>
+
+<div>
+  <%= link_to "Back to tasks", tasks_path, class: "btn btn-secondary" %>
+</div>

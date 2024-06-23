@@ -1,0 +1,25 @@
+<div id="<%= dom_id task %>" class="card mb-3">
+  <div class="card-body">
+    <h5 class="card-title"><strong>Title:</strong> <%= task.title %></h5>
+
+    <p class="card-text">
+      <strong>Description:</strong>
+      <%= task.description %>
+    </p>
+
+    <p class="card-text">
+      <strong>Status:</strong>
+      <%= task.status %>
+    </p>
+
+    <p class="card-text">
+      <strong>Deadline:</strong>
+      <%= task.deadline %>
+    </p>
+
+    <p class="card-text">
+      <strong>User:</strong>
+      <%= task.user_id %>
+    </p>
+  </div>
+</div>
